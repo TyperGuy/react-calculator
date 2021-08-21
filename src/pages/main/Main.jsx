@@ -5,8 +5,8 @@ function Main(){
   return(
     <div className="main-container">
       <div className="mode-container">
-        <div className="mode-icone dark"><i className="dark-icone"/></div>
-        <div className="mode-icone light"><i className="light-icone"/></div>
+        <div className="mode-icone light"><i className="light-icone far fa-sun"/></div>
+        <div className="mode-icone dark"><i className="dark-icone far fa-moon"/></div>
       </div>
       <div className="up">
 
