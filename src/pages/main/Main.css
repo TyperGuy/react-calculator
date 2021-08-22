@@ -9,6 +9,7 @@
   box-shadow: 0 0 1em rgba(0, 0, 0, .1);
   align-items: center;
   justify-content: center;  
+  font-family: Poppins;
 }
 .mode-container{
   width: 60px;
@@ -78,7 +79,8 @@
   border-width: 0;
   background-color:#eee;
   font-size: 15px;
-  font-weight: bold
+  font-weight: bold;
+  
 }
 .action{
   color: aqua;
