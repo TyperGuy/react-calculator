@@ -1,14 +1,15 @@
 import React from 'react';
 import './Main.css';
 
-function click(){
-  window.alert("clicou");
-}
+
 function Main(){
+  function click(){
+    window.alert("clicou");
+  }
   return(
     <div className="main-container">
       <div className="mode-container">
-        <div className="mode-icone light"><i className="light-icone far fa-sun"/></div>
+        <div className="mode-icone light"><i onClick="click()" className="light-icone far fa-sun"/></div>
         <div className="mode-icone dark"><i className="dark-icone far fa-moon"/></div>
       </div>
       <div className="up">
