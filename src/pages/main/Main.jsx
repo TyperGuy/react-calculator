@@ -1,6 +1,9 @@
 import React from 'react';
 import './Main.css';
 
+function click(){
+  window.alert("clicou");
+}
 function Main(){
   return(
     <div className="main-container">
