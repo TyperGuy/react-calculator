@@ -2,7 +2,7 @@ import React from 'react';
 import './Main.css';
 
  function click(){
-    //document.getElementById("light").style.color="#fff";
+    document.getElementById("main").style.backgroundColor="#000"
     const element = document.getElementById("light");
     element.classList.add("myClass");
     window.alert(element);
@@ -10,7 +10,7 @@ import './Main.css';
 function Main(){
  
   return(
-    <div className="main-container">
+    <div id="main" className="main-container">
       <div className="mode-container">
         <div className="mode-icone light"><i onClick={click} id="light" className="light-icone far fa-sun"/></div>
         <div className="mode-icone dark"><i className="dark-icone far fa-moon"/></div>
