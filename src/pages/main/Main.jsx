@@ -2,14 +2,17 @@ import React from 'react';
 import './Main.css';
 
  function click(){
-    window.alert("clicou");
+    //document.getElementById("light").style.color="#fff";
+    const element = document.getElementById("light");
+    element.classList.add("myClass");
+    window.alert(element);
   }
 function Main(){
  
   return(
     <div className="main-container">
       <div className="mode-container">
-        <div className="mode-icone light"><i onClick={click} className="light-icone far fa-sun"/></div>
+        <div className="mode-icone light"><i onClick={click} id="light" className="light-icone far fa-sun"/></div>
         <div className="mode-icone dark"><i className="dark-icone far fa-moon"/></div>
       </div>
       <div className="up">

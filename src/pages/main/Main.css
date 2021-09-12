@@ -29,10 +29,10 @@
   justify-content: center; 
 }
 .light-icone{
-  color: #555 !important;
+  color: #555;
 }
 .dark-icone{
-  color: #ccc !important;
+  color: #ccc;
 }
 .dark{
   border-radius: 0px 50px 50px 0px;
@@ -108,4 +108,8 @@ button:hover{
 button:active{
   background: #ccc ;
   transition: background 0.1s;
+}
+
+.myClass{
+  color: aqua;
 }
