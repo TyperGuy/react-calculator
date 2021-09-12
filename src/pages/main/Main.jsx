@@ -2,7 +2,10 @@ import React from 'react';
 import './Main.css';
 
  function click(){
-    document.getElementById("main").style.backgroundColor="#000"
+    document.getElementById("main").style.backgroundColor="#242424";
+    document.getElementById("down").style.backgroundColor="#373737";
+   
+
     const element = document.getElementById("light");
     element.classList.add("myClass");
     window.alert(element);
@@ -10,8 +13,8 @@ import './Main.css';
 function Main(){
  
   return(
-    <div id="main" className="main-container">
-      <div className="mode-container">
+    <div  id="main"className="main-container">
+      <div id="mode"className="mode-container">
         <div className="mode-icone light"><i onClick={click} id="light" className="light-icone far fa-sun"/></div>
         <div className="mode-icone dark"><i className="dark-icone far fa-moon"/></div>
       </div>
@@ -19,7 +22,7 @@ function Main(){
         <p className="operation">10 &times; 10 &times; 10</p>
         <h1 className="result">1000</h1>
       </div>
-      <div className="down">
+      <div id="down" className="down">
         <div className="teclado">
           <button class="action" id="clear">C</button>
           <button class="action" id="backspace">CE</button>
