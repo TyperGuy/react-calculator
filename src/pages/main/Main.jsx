@@ -4,6 +4,7 @@ import './Main.css';
  function click(){
         document.getElementById("main").style.backgroundColor="#242424";
         document.getElementById("down").style.backgroundColor="#373737";
+        document.getElementById("up").style.color="#fff";
         document.getElementById("light").style.fontWeight="100";
         document.getElementById("dark").style.fontWeight="bold";
         document.getElementById("light").style.color="#373737";
@@ -18,7 +19,7 @@ function Main(){
         <div className="mode-icone light"><i  id="light" className="light-icone far fa-sun"/></div>
         <div className="mode-icone dark"><i onClick={click} id="dark" className="dark-icone far fa-moon"/></div>
       </div>
-      <div className="up">
+      <div id="up" className="up">
         <p className="operation">10 &times; 10 &times; 10</p>
         <h1 className="result">1000</h1>
       </div>
