@@ -14,7 +14,7 @@ import './Main.css';
   function lightMode(){
         document.getElementById("main").style.backgroundColor="#ffffff";
         document.getElementById("down").style.backgroundColor="#373737";
-        document.getElementById("up").style.color="#fff";
+        document.getElementById("up").style.color="#2e2e2e";
         document.getElementById("dark").style.fontWeight="100";
         document.getElementById("light").style.fontWeight="bold";
         document.getElementById("dark").style.color="#ccc";
