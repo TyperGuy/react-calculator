@@ -10,12 +10,21 @@ import './Main.css';
         document.getElementById("light").style.color="#373737";
         document.getElementById("dark").style.color="aqua";      
   }
+
+  function lightMode(){
+        document.getElementById("main").style.backgroundColor="#ffffff";
+        document.getElementById("down").style.backgroundColor="#373737";
+        document.getElementById("up").style.color="#fff";
+        document.getElementById("dark").style.fontWeight="100";
+        document.getElementById("light").style.fontWeight="bold";
+        document.getElementById("dark").style.color="#ccc";
+  }
 function Main(){
  
   return(
     <div  id="main"className="main-container">
       <div id="mode"className="mode-container">
-        <div className="mode-icone light"><i  id="light" className="light-icone far fa-sun"/></div>
+        <div className="mode-icone light"><i onClick={lightMode}  id="light" className="light-icone far fa-sun"/></div>
         <div className="mode-icone dark"><i onClick={darkMode} id="dark" className="dark-icone far fa-moon"/></div>
       </div>
       <div id="up" className="up">
