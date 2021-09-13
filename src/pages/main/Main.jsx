@@ -1,15 +1,14 @@
 import React from 'react';
 import './Main.css';
 
- function click(){
+ function darkMode(){
         document.getElementById("main").style.backgroundColor="#242424";
         document.getElementById("down").style.backgroundColor="#373737";
         document.getElementById("up").style.color="#fff";
         document.getElementById("light").style.fontWeight="100";
         document.getElementById("dark").style.fontWeight="bold";
         document.getElementById("light").style.color="#373737";
-        document.getElementById("dark").style.color="aqua";
-        
+        document.getElementById("dark").style.color="aqua";      
   }
 function Main(){
  
@@ -17,7 +16,7 @@ function Main(){
     <div  id="main"className="main-container">
       <div id="mode"className="mode-container">
         <div className="mode-icone light"><i  id="light" className="light-icone far fa-sun"/></div>
-        <div className="mode-icone dark"><i onClick={click} id="dark" className="dark-icone far fa-moon"/></div>
+        <div className="mode-icone dark"><i onClick={darkMode} id="dark" className="dark-icone far fa-moon"/></div>
       </div>
       <div id="up" className="up">
         <p className="operation">10 &times; 10 &times; 10</p>
