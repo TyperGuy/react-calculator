@@ -28,7 +28,7 @@ function Main(){
         <div className="mode-icone dark"><i onClick={darkMode} id="dark" className="dark-icone far fa-moon"/></div>
       </div>
       <div id="up" className="up">
-        <p className="operation">10 &times; 10 &times; 10</p>
+        <p id="operation" className="operation">10 &times; 10 &times; 10</p>
         <h1 className="result">1000</h1>
       </div>
       <div id="down" className="down">
