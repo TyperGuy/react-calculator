@@ -31,9 +31,11 @@
 .light-icone{
   color: #2e2e2e;
   font-weight: bold;
+  transition: all .3s ease-in;
 }
 .dark-icone{
   color: #ccc;
+  transition: all .3s ease-in;
 }
 .dark{
   border-radius: 0px 50px 50px 0px;
