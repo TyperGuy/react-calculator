@@ -1,11 +1,11 @@
 import Main from './Main';
 
-const number = document.getElementById("operation")
+const number = document.getElementById("operation");
 
 function getNumber(){
   number.innerText="1234"
 }
 
-getNumber();
+//getNumber();
 
 export default Main;
