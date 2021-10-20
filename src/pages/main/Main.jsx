@@ -1,7 +1,9 @@
 import React from 'react';
 import './Main.css';
 
- function darkMode(){
+
+
+function darkMode(){
         document.getElementById("main").style.backgroundColor="#242424";
         document.getElementById("down").style.backgroundColor="#373737";
         document.getElementById("up").style.color="#fff";
@@ -11,7 +13,7 @@ import './Main.css';
         document.getElementById("dark").style.color="aqua";      
   }
 
-  function lightMode(){
+function lightMode(){
         document.getElementById("main").style.backgroundColor="#ffffff";
         document.getElementById("down").style.backgroundColor="#f1f1f1";
         document.getElementById("up").style.color="#2e2e2e";
