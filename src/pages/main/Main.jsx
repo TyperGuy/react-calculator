@@ -31,6 +31,7 @@ function Main(){
       </div>
       <div id="up" className="up">
         <p id="operation" className="operation">10 &times; 10 &times; 10</p>
+        <p id="operation" className="operation">10 &times; 10 &times; 10</p>
         <h1 className="result">1000</h1>
       </div>
       <div id="down" className="down">
