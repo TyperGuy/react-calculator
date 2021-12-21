@@ -6,6 +6,9 @@ An Simple calculator made with reactjs, using create-react-app
 
 <img src="https://github.com/TyperGuy/react-calculator/blob/main/src/assets/calculator.png"/>
 
+
+## how to test
+
 ### `npm start`
 
 Runs the app in the development mode.\
