@@ -5,6 +5,7 @@ An Simple calculator made with reactjs, using create-react-app
 ## Layout
 
 <img src="https://github.com/TyperGuy/react-calculator/blob/main/src/assets/calculator.png"/>
+<a href ="https://dribbble.com/shots/14709020-Calculator">Creditos</>
 
 ## Tecnologias usadas
 <div>
