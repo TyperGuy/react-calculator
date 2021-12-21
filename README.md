@@ -4,7 +4,7 @@ An Simple calculator made with reactjs, using create-react-app
 
 ## Layout
 
-In the project directory, you can run:
+<img scr=""/>
 
 ### `npm start`
 
