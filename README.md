@@ -4,7 +4,7 @@ An Simple calculator made with reactjs, using create-react-app
 
 ## Layout
 
-<img scr=""/>
+<img scr="https://github.com/TyperGuy/react-calculator/blob/main/src/assets/calculator.webp"/>
 
 ### `npm start`
 
