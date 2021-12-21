@@ -2,7 +2,7 @@
 
 An Simple calculator made with reactjs, using create-react-app
 
-## Available Scripts
+## Layout
 
 In the project directory, you can run:
 
