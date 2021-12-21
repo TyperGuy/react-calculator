@@ -8,7 +8,8 @@ An Simple calculator made with reactjs, using create-react-app
 
 
 ## how to test
-1- First You need to clone : `git clnoe git@github.com:TyperGuy/react-calculator.git ` </br>
+1 - First You need to clone : `git clnoe git@github.com:TyperGuy/react-calculator.git ` </br>
+2 - now Install all dependencies :`npm install` </br>
 Run : `npm start`
 
 Runs the app in the development mode.\
