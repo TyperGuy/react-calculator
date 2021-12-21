@@ -13,6 +13,7 @@ An Simple calculator made with reactjs, using create-react-app
   <img style="width:50px;" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg">
   <img style="width:50px;" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
   <img style="width:50px" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg">
+  https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg
 </div>
 
 ## how to test
