@@ -25,7 +25,10 @@ An Simple calculator made with reactjs, using create-react-app
   ```sh
   git clnoe git@github.com:TyperGuy/react-calculator.git 
   ``` 
-2 - Now Install all dependencies :`npm install` </br>
+2 - Now Install all dependencies :
+  ```sh
+  npm install
+  ```
 3 - So now you can start the project : `npm start` </br>
 4 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
