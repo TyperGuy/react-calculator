@@ -21,7 +21,8 @@ An Simple calculator made with reactjs, using create-react-app
 
 ## how to test
 ### Fist of all  you need to open your terminal and go some where you want to download the project  </br>
-1 - First You need to clone : `git clnoe git@github.com:TyperGuy/react-calculator.git ` </br>
+1 - First You need to clone : 
+```git clnoe git@github.com:TyperGuy/react-calculator.git ``` </br>
 2 - Now Install all dependencies :`npm install` </br>
 3 - So now you can start the project : `npm start` </br>
 4 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
