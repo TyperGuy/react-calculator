@@ -29,8 +29,14 @@ An Simple calculator made with reactjs, using create-react-app
   ```sh
   npm install
   ```
-3 - So now you can start the project : `npm start` </br>
-4 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3 - So now you can start the project :
+  ```sh
+  npm start
+  ```
+4 - Open the link below to view it in the browser:
+  ```sh
+  http://localhost:3000
+  ```
 
 
 `The page will reload if you make edits.
